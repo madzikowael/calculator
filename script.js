@@ -19,7 +19,7 @@ const calculate = () => {
     const previous = parseFloat(previousOperation)
     const actual = parseFloat(actualOperation)
 
-    if(isNaN(previous) || isNan(actual)){
+    if(isNaN(previous) || isNaN(actual)){
         return
     }
 
